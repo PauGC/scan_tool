@@ -1,0 +1,60 @@
+{
+    "scan_params": {
+        "scan_type": "simple scan",
+        "mode": "automatic",
+        "samples": 10,
+        "background_samples": 10,
+        "facility": "FLASH",
+        "beamline": "FLASH3",
+        "act_laser": 0,
+        "save": 1,
+        "file_tag": "",
+        "comment": ""
+    },
+    "actuator": [
+        {
+            "address_sp": "FLASH.MAGNETS/MAGNET.ML/Q1FLFXTDS/CURRENT.SP",
+            "address_rbv": "FLASH.MAGNETS/MAGNET.ML/Q1FLFXTDS/CURRENT.RBV",
+            "values": [
+                -25.0,
+                -24.5,
+                -24.0,
+                -23.5,
+                -23.0,
+                -22.5,
+                -22.0,
+                -21.5,
+                -21.0,
+                -20.5,
+                -20.0
+            ]
+        },
+        {
+            "address_sp": "FLASH.MAGNETS/MAGNET.ML/Q5FLFXTDS/CURRENT.SP",
+            "address_rbv": "FLASH.MAGNETS/MAGNET.ML/Q5FLFXTDS/CURRENT.RBV",
+            "values": [
+                -30.0,
+                -28.5,
+                -27.0,
+                -25.5,
+                -24.0,
+                -22.5,
+                -21.0,
+                -19.5,
+                -18.0,
+                -16.5,
+                -15.0
+            ]
+        }
+    ],
+    "sensor": [
+        "FLASH.DIAG/BPM/2FLFMAFF/X.FLASH3",
+        "FLASH.DIAG/BPM/2FLFMAFF/Y.FLASH3",
+        "FLASH.DIAG/BPM/5FLFMAFF/X.FLASH3",
+        "FLASH.DIAG/BPM/5FLFMAFF/Y.FLASH3",
+        "FLASH.DIAG/TOROID/7FLFMAFF/CHARGE.FLASH3",
+        "FLASH.DIAG/CAMERA/SCR7FLFDIAG/SPECTRUM.X.TD",
+        "FLASH.DIAG/CAMERA/SCR7FLFDIAG/SPECTRUM.Y.TD"
+    ],
+    "device_settings": {}
+}
