@@ -1,18 +1,12 @@
-# Scan tool for the FLASH linac at DESY
+# General-purpose Scan Tool for the FLASH linac at DESY
 
 ## Overview
 
-Tool to bla, bla, bla...
+The code provides three basic classes which correspond to abstract representations of actuators, sensors/detectors and 
+processes (i.e. a sequence of basic operations with actuators and sensors), with a view towards the composition of 
+end-user applications combining the control of hardware components and data acquisition. A simple GUI enables a 
+straighforward configuration of scans. Interaction with machine components is implemented with the Python bindings using 
+the C++ DOOCS client API (pydoocs). The code is currently in a testing phase. 
+
 
 ![GUI snapshot](gui_snapshot.png?raw=true "Title")
-
-## Usage
-
-I'll complete the README file when somebody starts using the scripts... :-)
-
-
-## TODO
-- [ ] In target QComboBox items list (match), set the last element of the list to the default
-- [ ] When loading a new optics file, choose which magnets to use
-- [ ] When pushing the magnet values to the linac, choose which magnets to load (might not be the full list of magnets...
-- [ ] Check the swesch file format... something wrong with it!
